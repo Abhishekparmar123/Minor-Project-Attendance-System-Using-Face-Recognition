@@ -39,6 +39,6 @@ All the code that interacts with the database is written here.we have a database
 The OTP.py is used to send email on the registered email of admin or when admin want's to change their password.
 
 ## This project is our college minor project, created in group with ##
-## ( https://github.com/aditya8600 , " Aditya pandey ")
-## ( https://github.com/Anandmohan1210, " Anand Mohan Bhagat ")
-## ( https://github.com/mrkunalsahu, " Kunal Sahu ")
+### ( https://github.com/aditya8600 , " Aditya pandey ")
+### ( https://github.com/Anandmohan1210, " Anand Mohan Bhagat ")
+### ( https://github.com/mrkunalsahu, " Kunal Sahu ")
