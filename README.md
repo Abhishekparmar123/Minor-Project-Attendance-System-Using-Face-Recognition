@@ -1,14 +1,13 @@
-## PROJECT DETAILS ##
+# PROJECT DETAILS #
 
-ABSTRACT
+## ABSTRACT ##
 
 Face recognition is among the most productive image processing applications and has a pivotal role in the technical field. Recognition of the human face is an active issue for authentication purposes specifically in the context of attendance of students. Attendance system using face recognition is a procedure of recognizing students by using face biostatistics based on the high definition monitoring and other computer technologies. The development of this system is aimed to accomplish digitization of the traditional system of taking attendance by calling names and maintaining pen-paper records. Present strategies for taking attendance are tedious and time-consuming. Attendance records can be easily manipulated by manual recording. The traditional process of making attendance and present biometric systems are vulnerable to proxies. This paper is therefore proposed to tackle all these problems. The proposed system makes the use of Haar classifiers, KNN, CNN, SVM, Generative adversarial networks, and Gabor filters. After face recognition attendance reports will be generated and stored in excel format. The system is tested under various conditions like illumination, head movements, the variation of distance between the student and cameras. After vigorous testing overall complexity and accuracy are calculated. The Proposed system proved to be an efficient and robust device for taking attendance in a classroom without any time consumption and manual work. The system developed is cost-efficient and need less installation.
 
-###########################################################################################################################################
 
-INTRODUCTION
+## INTRODUCTION ##
 
-Overview
+### Overview ##
 
 In today's networked world, the need to maintain the security of information or physical property is becoming both increasingly important and increasingly difficult. From time to time we hear about the crimes of credit card fraud, computer break-in’s by hackers, or security breaches in a company or government building.
 
@@ -22,3 +21,24 @@ Face recognition systems are part of facial image processing applications and th
 The goal is reached by face detection and recognition methods. Knowledge-Based face detection methods are used to find, locate and extract faces in acquired images. Implemented methods are skin color and facial features. Neural network is used for face recognition.
 RGB color space is used to specify skin color values, and segmentation decreases searching time of face images. Facial components on face candidates are appeared with implementation of LoG filter. LoG filter shows good performance on extracting facial compoments under different illumination conditions.
 FFNN is performed to classifiy to solve pattern recongition problem since face recognition is a kind of pattern recognition. Classification result is accurate. Classification is also flexible and correct when extracted face image is small oriented, closed eye, and small smiled 
+
+## This project contains three files ##
+
+## User Interface ##
+
+### main.py and login.py ###
+All the front-end code is written here.This file contains the UI of our project and the execution begins from here. All the calls to other method will be made from here.
+
+## Database ##
+
+### Database.py ###
+All the code that interacts with the database is written here.we have a database which store new registration details and perform all database related operation like insertion, deletion, and  searching some entities.
+
+## OTP ##
+
+The OTP.py is used to send email on the registered email of admin or when admin want's to change their password.
+
+## This project is our college minor project, created in group with ##
+## ( https://github.com/aditya8600 , " Aditya pandey ")
+## ( https://github.com/Anandmohan1210, " Anand Mohan Bhagat ")
+## ( https://github.com/mrkunalsahu, " Kunal Sahu ")
